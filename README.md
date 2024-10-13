@@ -2,29 +2,45 @@
 ## Setup
 - Clone the code
 
-    ``` git clone https://github.com/jquirosz/LittleLemon.git```
+  ```
+  git clone https://github.com/jquirosz/LittleLemon.git
+  ```
 
     add your credentials if prompted for them.
 - Create a new virtual environment.
 
-    ```python -m venv env```
+    ```
+  python -m venv env
+  source env/bin/activate
+  ```
+  
 - Then to add al required dependencies run
   
-  ```pip install -r requirements.txt```
+  ```
+  pip install -r requirements.txt
+  ```
 
 - Run migrations
 
-  ``` python manage.py makemigrations```
+  ```
+  python manage.py makemigrations
+  ```
 
-  ``` python manage.py makemigrations```
+  ``` 
+  python manage.py makemigrations
+  ```
 
 - Remember to setup the superuser
-    ```python manage.py createsuperuser ```
+    ```
+  python manage.py createsuperuser
+  ```
 
 ## Run
 To run the application run:
 
-```python manage.py runserver```
+```
+python manage.py runserver
+```
 
 ## Endpoints to test
 ### HTML
